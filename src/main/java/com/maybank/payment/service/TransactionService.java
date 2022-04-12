@@ -2,7 +2,6 @@ package com.maybank.payment.service;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -62,7 +61,7 @@ public class TransactionService {
 
         transaction = transactionRepository.save(transaction);
 
-        if(accountBalance.getClosingBalance().compareTo(MAX_ACCOUNT_BALANCE) > 0) {
+        if(accountBalance.getClosingBalance().add(new BigDecimal(baseRequestAmount)).compareTo(MAX_ACCOUNT_BALANCE) == 1) {
             throw new ExceededMaxBalanceException();
         }
 
@@ -99,7 +98,7 @@ public class TransactionService {
 
         transaction = transactionRepository.save(transaction);
 
-        if(accountBalance.getClosingBalance().doubleValue() - (-1 * baseRequestAmount) < 0) {
+        if(accountBalance.getClosingBalance().subtract(new BigDecimal(-1 * baseRequestAmount)).compareTo(BigDecimal.ZERO) == -1) {
             throw new InsufficientFundException();
         }
 
