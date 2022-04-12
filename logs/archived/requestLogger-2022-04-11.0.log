@@ -1,0 +1,40 @@
+2022-04-11 00:40:49.094  INFO 4800 --- [nio-8080-exec-4] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-4",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-11 00:40:48.326",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-11 00:40:49.093",
+  "response" : {
+    "responseCode" : "501",
+    "responseDescription" : "External service unavailable",
+    "requestReference" : "540c0b90-e19b-4441-a627-4188456431bd",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}
+2022-04-11 00:40:56.074  INFO 4800 --- [nio-8080-exec-5] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-5",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-11 00:40:55.365",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-11 00:40:56.073",
+  "response" : {
+    "responseCode" : "501",
+    "responseDescription" : "External service unavailable",
+    "requestReference" : "f20d7dc6-6f00-40ea-96d9-ee6f16b2e36a",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}

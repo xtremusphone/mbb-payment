@@ -1,0 +1,402 @@
+2022-04-10 13:34:04.442  INFO 9228 --- [nio-8080-exec-2] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-2",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1231231231",
+  "requestTimestamp" : "2022-04-10 13:34:04.287",
+  "request" : null,
+  "status" : 400,
+  "responseTimestamp" : "2022-04-10 13:34:04.431",
+  "response" : {
+    "responseCode" : "101",
+    "responseDescription" : "Invalid account no",
+    "requestReference" : "a7d491b8-e7c6-4564-b0b7-289e154a1651",
+    "accountCurrency" : null,
+    "accountBalance" : null
+  }
+}
+2022-04-10 13:37:02.735  INFO 13060 --- [nio-8080-exec-2] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-2",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1231231231",
+  "requestTimestamp" : "2022-04-10 13:37:02.622",
+  "request" : null,
+  "status" : 200,
+  "responseTimestamp" : "2022-04-10 13:37:02.724",
+  "response" : null
+}
+2022-04-10 13:37:02.776  INFO 13060 --- [nio-8080-exec-2] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-2",
+  "method" : "GET",
+  "uri" : "/error",
+  "requestTimestamp" : "2022-04-10 13:37:02.752",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 13:37:02.776",
+  "response" : null
+}
+2022-04-10 13:40:33.403  INFO 18820 --- [nio-8080-exec-1] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-1",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1231231231",
+  "requestTimestamp" : "2022-04-10 13:40:33.26",
+  "request" : null,
+  "status" : 404,
+  "responseTimestamp" : "2022-04-10 13:40:33.392",
+  "response" : {
+    "responseCode" : "101",
+    "responseDescription" : "Invalid account no",
+    "requestReference" : "ee13658e-02bb-4e32-b1e4-59a2badc8dfc",
+    "accountCurrency" : null,
+    "accountBalance" : null
+  }
+}
+2022-04-10 13:49:07.820  INFO 18820 --- [nio-8080-exec-2] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-2",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22",
+  "requestTimestamp" : "2022-04-10 13:49:07.783",
+  "request" : null,
+  "status" : 200,
+  "responseTimestamp" : "2022-04-10 13:49:07.819",
+  "response" : {
+    "responseCode" : "000",
+    "responseDescription" : "Complete Response",
+    "requestReference" : "f5e185c6-c0bc-4ebe-9c3e-06c3b6c80d6d",
+    "accountCurrency" : "MYR",
+    "accountBalance" : "5,000.00"
+  }
+}
+2022-04-10 13:49:19.015  INFO 18820 --- [nio-8080-exec-6] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-6",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 13:49:18.998",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 13:49:19.014",
+  "response" : {
+    "responseCode" : "500",
+    "responseDescription" : "Internal service exception",
+    "requestReference" : "3084c4b1-5493-4d23-84de-95b401e4dd6c",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}
+2022-04-10 13:51:16.435  INFO 3552 --- [nio-8080-exec-1] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-1",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 13:51:16.248",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 13:51:16.423",
+  "response" : {
+    "responseCode" : "500",
+    "responseDescription" : "Internal service exception",
+    "requestReference" : "e26c28e1-8fbe-4e89-aca6-fbcd17773747",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}
+2022-04-10 13:51:52.191  INFO 18628 --- [nio-8080-exec-1] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-1",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 13:51:52.018",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 13:51:52.18",
+  "response" : {
+    "responseCode" : "500",
+    "responseDescription" : "Internal service exception",
+    "requestReference" : "03d6b5b6-ba21-4c95-b0e1-ef1ca5345f9e",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}
+2022-04-10 13:55:29.806  INFO 20692 --- [nio-8080-exec-1] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-1",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 13:55:29.635",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 13:55:29.794",
+  "response" : {
+    "responseCode" : "500",
+    "responseDescription" : "Internal service exception",
+    "requestReference" : "fbd4548c-8e96-4882-940e-6e8df8a5b994",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}
+2022-04-10 13:58:54.841  INFO 9348 --- [nio-8080-exec-2] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-2",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 13:58:53.848",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 13:58:54.829",
+  "response" : {
+    "responseCode" : "500",
+    "responseDescription" : "Internal service exception",
+    "requestReference" : "8589514f-b80a-4953-971f-8bbbfb973e24",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}
+2022-04-10 14:01:27.902  INFO 19276 --- [nio-8080-exec-1] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-1",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 14:01:27.032",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 14:01:27.89",
+  "response" : {
+    "responseCode" : "501",
+    "responseDescription" : "Invalid currency code",
+    "requestReference" : "bfea038b-2694-46d5-afd2-0ee15b3af323",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}
+2022-04-10 14:01:55.552  INFO 4864 --- [nio-8080-exec-1] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-1",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 14:01:54.677",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 14:01:55.54",
+  "response" : {
+    "responseCode" : "501",
+    "responseDescription" : "External service unavailable",
+    "requestReference" : "d5efed53-0434-4397-83f5-ad54faca7e8a",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}
+2022-04-10 14:03:18.063  INFO 9300 --- [nio-8080-exec-1] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-1",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 14:03:16.795",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 14:03:18.052",
+  "response" : {
+    "responseCode" : "501",
+    "responseDescription" : "External service unavailable",
+    "requestReference" : "3389663f-0dca-4e37-9748-c1d8d00d0f4e",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}
+2022-04-10 14:07:26.151  INFO 13036 --- [nio-8080-exec-2] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-2",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 14:07:25.176",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 14:07:26.138",
+  "response" : {
+    "responseCode" : "501",
+    "responseDescription" : "External service unavailable",
+    "requestReference" : "34411618-aa67-4f6b-8c79-ca88f027e38f",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}
+2022-04-10 14:08:38.784  INFO 13748 --- [nio-8080-exec-2] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-2",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 14:08:37.803",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 14:08:38.764",
+  "response" : {
+    "responseCode" : "501",
+    "responseDescription" : "External service unavailable",
+    "requestReference" : "9cae4693-1f68-4e71-8a61-0d578cf7bdd0",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}
+2022-04-10 14:10:14.889  INFO 13748 --- [nio-8080-exec-3] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-3",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 14:10:14.136",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 14:10:14.888",
+  "response" : {
+    "responseCode" : "501",
+    "responseDescription" : "External service unavailable",
+    "requestReference" : "727932b4-55e4-4482-9c8d-1125feef2610",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}
+2022-04-10 14:12:00.675  INFO 13748 --- [nio-8080-exec-5] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-5",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22",
+  "requestTimestamp" : "2022-04-10 14:12:00.645",
+  "request" : null,
+  "status" : 200,
+  "responseTimestamp" : "2022-04-10 14:12:00.674",
+  "response" : {
+    "responseCode" : "000",
+    "responseDescription" : "Complete Response",
+    "requestReference" : "64645389-2b62-454c-9b48-e1a0edba427c",
+    "accountCurrency" : "MYR",
+    "accountBalance" : "5,000.00"
+  }
+}
+2022-04-10 14:15:13.695  INFO 11816 --- [nio-8080-exec-1] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-1",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22",
+  "requestTimestamp" : "2022-04-10 14:15:13.534",
+  "request" : null,
+  "status" : 200,
+  "responseTimestamp" : "2022-04-10 14:15:13.683",
+  "response" : {
+    "responseCode" : "000",
+    "responseDescription" : "Complete Response",
+    "requestReference" : "64dba50d-cf22-4880-b730-f57e529ca679",
+    "accountCurrency" : "MYR",
+    "accountBalance" : "5,000.00"
+  }
+}
+2022-04-10 14:15:21.661  INFO 11816 --- [nio-8080-exec-3] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-3",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/conver/JPY",
+  "requestTimestamp" : "2022-04-10 14:15:21.653",
+  "request" : null,
+  "status" : 404,
+  "responseTimestamp" : "2022-04-10 14:15:21.66",
+  "response" : null
+}
+2022-04-10 14:15:21.691  INFO 11816 --- [nio-8080-exec-3] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-3",
+  "method" : "GET",
+  "uri" : "/error",
+  "requestTimestamp" : "2022-04-10 14:15:21.665",
+  "request" : null,
+  "status" : 404,
+  "responseTimestamp" : "2022-04-10 14:15:21.691",
+  "response" : null
+}
+2022-04-10 14:15:28.172  INFO 11816 --- [nio-8080-exec-4] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-4",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 14:15:27.34",
+  "request" : null,
+  "status" : 200,
+  "responseTimestamp" : "2022-04-10 14:15:28.172",
+  "response" : null
+}
+2022-04-10 14:15:28.191  INFO 11816 --- [nio-8080-exec-4] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-4",
+  "method" : "GET",
+  "uri" : "/error",
+  "requestTimestamp" : "2022-04-10 14:15:28.182",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 14:15:28.191",
+  "response" : null
+}
+2022-04-10 14:16:48.906  INFO 4800 --- [nio-8080-exec-1] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-1",
+  "method" : "GET",
+  "uri" : "/api/v1/balance/1c74bd7c-f009-4fc3-a6f0-05d4cb463c22/convert/JPY",
+  "requestTimestamp" : "2022-04-10 14:16:47.508",
+  "request" : null,
+  "status" : 500,
+  "responseTimestamp" : "2022-04-10 14:16:48.893",
+  "response" : {
+    "responseCode" : "501",
+    "responseDescription" : "External service unavailable",
+    "requestReference" : "6683c91f-8ddb-42f7-b1fe-9f011ec078b8",
+    "accountCurrency" : null,
+    "accountBalance" : null,
+    "targetCurrency" : null,
+    "targetBalance" : null
+  }
+}

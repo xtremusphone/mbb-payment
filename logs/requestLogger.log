@@ -1,0 +1,108 @@
+2022-04-13 05:32:45.482  INFO 12128 --- [nio-8080-exec-2] LoggerServlet                            : 
+{
+  "clientIp" : "0:0:0:0:0:0:0:1",
+  "threadId" : "http-nio-8080-exec-2",
+  "method" : "GET",
+  "uri" : "/api/v1/transaction/history/3db65ba7-2c87-4728-a55d-773bc398d470",
+  "requestTimestamp" : "2022-04-13 05:32:45.147",
+  "request" : null,
+  "status" : 200,
+  "responseTimestamp" : "2022-04-13 05:32:45.469",
+  "response" : {
+    "responseCode" : "000",
+    "responseDescription" : "Complete Response",
+    "requestReference" : "8128cfd1-1376-4038-ad1c-3cf4da081cb7",
+    "moreRecord" : true,
+    "transactionList" : [ {
+      "transactionId" : "04755a24-09d3-456a-9576-8a1887a604aa",
+      "accountNo" : "3db65ba7-2c87-4728-a55d-773bc398d470",
+      "amount" : 500.0,
+      "currencyCode" : "USD",
+      "baseAmount" : 2110.75,
+      "baseCurrency" : "MYR",
+      "timestamp" : "2022-04-11T17:25:56.260+00:00",
+      "description" : "ATM CDM USD 500.00"
+    }, {
+      "transactionId" : "2142dfc1-7390-4ec7-a260-6baebf6a1ed7",
+      "accountNo" : "3db65ba7-2c87-4728-a55d-773bc398d470",
+      "amount" : 500.0,
+      "currencyCode" : "MYR",
+      "baseAmount" : 500.0,
+      "baseCurrency" : "MYR",
+      "timestamp" : "2022-04-11T17:25:07.104+00:00",
+      "description" : "ATM CDM RM 500.00"
+    }, {
+      "transactionId" : "2fa9053d-f581-48d1-a9ab-9aae6fb3f52b",
+      "accountNo" : "3db65ba7-2c87-4728-a55d-773bc398d470",
+      "amount" : 500.0,
+      "currencyCode" : "MYR",
+      "baseAmount" : 500.0,
+      "baseCurrency" : "MYR",
+      "timestamp" : "2022-04-11T17:25:10.153+00:00",
+      "description" : "ATM CDM RM 500.00"
+    }, {
+      "transactionId" : "3490b2a8-7f36-407b-b328-ac1ccd426b8a",
+      "accountNo" : "3db65ba7-2c87-4728-a55d-773bc398d470",
+      "amount" : 500.0,
+      "currencyCode" : "MYR",
+      "baseAmount" : 123330.0,
+      "baseCurrency" : "MYR",
+      "timestamp" : "2022-04-11T17:22:04.786+00:00",
+      "description" : "ATM CDM RM 500.00"
+    }, {
+      "transactionId" : "3f510cdc-be60-4e15-91d7-c59ab92bb0ff",
+      "accountNo" : "3db65ba7-2c87-4728-a55d-773bc398d470",
+      "amount" : 500.0,
+      "currencyCode" : "USD",
+      "baseAmount" : 2110.75,
+      "baseCurrency" : "MYR",
+      "timestamp" : "2022-04-11T17:26:41.720+00:00",
+      "description" : "ATM CDM USD 500.00"
+    }, {
+      "transactionId" : "bb74f27a-a782-48e4-b4e4-018f19542703",
+      "accountNo" : "3db65ba7-2c87-4728-a55d-773bc398d470",
+      "amount" : 500.0,
+      "currencyCode" : "MYR",
+      "baseAmount" : 246660.0,
+      "baseCurrency" : "MYR",
+      "timestamp" : "2022-04-11T17:22:15.905+00:00",
+      "description" : "ATM CDM RM 500.00"
+    }, {
+      "transactionId" : "cd99b016-32a5-4a6f-a32b-79c95417d30c",
+      "accountNo" : "3db65ba7-2c87-4728-a55d-773bc398d470",
+      "amount" : 500.0,
+      "currencyCode" : "USD",
+      "baseAmount" : 2110.75,
+      "baseCurrency" : "MYR",
+      "timestamp" : "2022-04-11T17:26:40.705+00:00",
+      "description" : "ATM CDM USD 500.00"
+    }, {
+      "transactionId" : "cfb1d48d-94b9-4755-9cdd-54837ae7c74c",
+      "accountNo" : "3db65ba7-2c87-4728-a55d-773bc398d470",
+      "amount" : 500.0,
+      "currencyCode" : "USD",
+      "baseAmount" : 2110.75,
+      "baseCurrency" : "MYR",
+      "timestamp" : "2022-04-11T17:26:41.190+00:00",
+      "description" : "ATM CDM USD 500.00"
+    }, {
+      "transactionId" : "dfe2a55d-9df8-40c2-95ed-d59c6411d165",
+      "accountNo" : "3db65ba7-2c87-4728-a55d-773bc398d470",
+      "amount" : 500.0,
+      "currencyCode" : "MYR",
+      "baseAmount" : 493320.0,
+      "baseCurrency" : "MYR",
+      "timestamp" : "2022-04-11T17:22:37.450+00:00",
+      "description" : "ATM CDM RM 500.00"
+    }, {
+      "transactionId" : "f405bcc0-677f-4bda-80fd-ddd822c71bc0",
+      "accountNo" : "3db65ba7-2c87-4728-a55d-773bc398d470",
+      "amount" : 500.0,
+      "currencyCode" : "USD",
+      "baseAmount" : 2110.75,
+      "baseCurrency" : "MYR",
+      "timestamp" : "2022-04-11T17:26:42.199+00:00",
+      "description" : "ATM CDM USD 500.00"
+    } ]
+  }
+}
